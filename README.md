@@ -4,7 +4,7 @@
 | Question    | Logging Value | 
 | ---------------- | --:|
 | Question 1  | bar: undefined <br />1 5    | 
-| Question 2  |     |  
+| Question 2  |    foo:5</br> bar:10</br> bas:12</br> |  
 | Question 3  |     |      
 | Question 4  |     |   
 | Question 5  |     |      
