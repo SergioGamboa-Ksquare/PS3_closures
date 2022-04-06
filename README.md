@@ -2,7 +2,7 @@
 ## Problem 2
 ### Hoisting interview
 | Question    | Loging Value | 
-| ---------------- | -- :|
+| ---------------- | --:|
 | Question 1  |     | 
 | Question 2  |     |  
 | Question 3  |     |      
