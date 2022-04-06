@@ -1,7 +1,7 @@
 # PS3_closures
 ## Problem 2
 ### Hoisting interview
-| Question    | Loging Value | 
+| Question    | Logging Value | 
 | ---------------- | --:|
 | Question 1  |     | 
 | Question 2  |     |  
