@@ -6,7 +6,7 @@
 | Question 1  | bar: undefined <br />1 5    | 
 | Question 2  |    foo:5</br> bar:10</br> bas:12</br> |  
 | Question 3  |     10|      
-| Question 4  |     |   
+| Question 4  |     bar is not a function|   
 | Question 5  |     |      
 | Question 6  |     |  
 | Question 7  |     |   
