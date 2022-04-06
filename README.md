@@ -3,7 +3,8 @@
 ### Hoisting interview
 | Question    | Logging Value | 
 | ---------------- | --:|
-| Question 1  |     | 
+| Question 1  | bar: undefined\\
+1 5    | 
 | Question 2  |     |  
 | Question 3  |     |      
 | Question 4  |     |   
