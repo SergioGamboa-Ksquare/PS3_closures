@@ -10,6 +10,6 @@
 | Question 5  |     Good evening </br>Good morning</br> Good morning</br>|      
 | Question 6  |     foo: 5</br>foo: 10</br>|  
 | Question 7  |     3|   
-| Question 8  |     |      
+| Question 8  |     x:undefined</br> x:bar|      
 | Question 9  |     |  
 | Question 10 |     |
