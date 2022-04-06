@@ -12,4 +12,4 @@
 | Question 7  |     3|   
 | Question 8  |     x: undefined</br> x: bar|      
 | Question 9  |     Second|  
-| Question 10 |     |
+| Question 10 |     5|
