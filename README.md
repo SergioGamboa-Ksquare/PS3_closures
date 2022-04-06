@@ -11,5 +11,5 @@
 | Question 6  |     foo: 5</br>foo: 10</br>|  
 | Question 7  |     3|   
 | Question 8  |     x: undefined</br> x: bar|      
-| Question 9  |     |  
+| Question 9  |     Second|  
 | Question 10 |     |
