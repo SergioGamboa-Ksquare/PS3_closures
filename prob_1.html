@@ -1,0 +1,276 @@
+<link href="http://fonts.cdnfonts.com/css/brittany-signature" rel="stylesheet">
+<head>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            
+        }
+        body{
+            background-color: blue;
+            background-image: url("images/fondo.png");
+            
+        }
+        #Testimonial-grid-container{
+            margin-top: 100px;
+            margin-bottom: 100px;
+            margin-left: 100px;
+            margin-right: 200px;
+            //padding: 33% 33%;
+            flex-basis: auto;
+            background-color: white;
+            padding: 2% 2%;
+            display: flex;
+            flex-direction: row;
+            flex-basis: auto;
+            box-shadow: 10px 10px 5px #ccc;
+            border-color: gray;
+
+        }
+        #title h1{
+            color: white;
+            font-family: Agency FB;
+            font-size: 35px;
+            margin-bottom: 10px;
+            margin-left: 12%;
+        }
+        #title h6{
+            color: whitesmoke;
+            font-family: Verdana;
+            font-size: 15px;
+            margin-top: 10px;
+            margin-left: 40px;
+            margin-right: 40px;
+            margin-bottom: 100px;
+            align-self: center;
+            font-size: 12px;
+            line-height: 25px;
+        }
+
+        #Testimonial_1{ 
+            background-color: #e38424;
+            display: inline-block;
+            
+            flex-basis: auto;
+            
+            height: 520px;
+            
+           
+
+        }
+        .grid-item{
+            margin-top: 60px;
+            margin-bottom: 50px;
+            //padding: 10px;
+            border-radius: 5px;
+            margin-left: 40px;
+            margin-right: 40px;
+        
+            
+            
+        }
+
+        .header{
+            display: flex;
+            align-items: center;
+            float: left;
+            margin-bottom: 10px;
+    
+        }
+       
+
+        #Testimonial_5{
+           
+            background-color: #046b73;
+            width: auto;
+            flex-basis: auto;
+            margin-left: -40px;
+
+            height: 520px;
+        
+
+        }   
+        #Testimonial_3{
+            
+            background-color: #04423b;
+            width: auto;
+            flex-basis: auto;
+            margin-left: -40px;
+
+            
+            
+            height: 520px;
+         
+
+        }  
+
+        .item1 button{
+            align-items: center;
+            background-color: white;
+            border: 0;
+            border-radius: 100px;
+            box-sizing: border-box;
+            color: #e38424; ;
+            cursor: pointer;
+            display: inline-flex;
+            font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            justify-content: center;
+            line-height: 20px;
+            max-width: 480px;
+            min-height: 40px;
+            min-width: 0px;
+            overflow: hidden;
+            padding: 0px;
+            padding-left: 20px;
+            padding-right: 20px;
+            text-align: center;
+            touch-action: manipulation;
+            transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+            user-select: none;
+            -webkit-user-select: none;
+            vertical-align: middle;
+            margin-left: 50px;        }
+        .item2 button{
+            align-items: center;
+            background-color: white;
+            border: 0;
+            border-radius: 100px;
+            box-sizing: border-box;
+            color: #046b73 ;
+            cursor: pointer;
+            display: inline-flex;
+            font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            justify-content: center;
+            line-height: 20px;
+            max-width: 480px;
+            min-height: 40px;
+            min-width: 0px;
+            overflow: hidden;
+            padding: 0px;
+            padding-left: 20px;
+            padding-right: 20px;
+            text-align: center;
+            touch-action: manipulation;
+            transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+            user-select: none;
+            -webkit-user-select: none;
+            vertical-align: middle;
+            margin-left: 50px;
+        }
+        .item3 button{
+            
+            align-items: center;
+            background-color: white;
+            border: 0;
+            border-radius: 100px;
+            box-sizing: border-box;
+            color: #04423b ;
+            cursor: pointer;
+            display: inline-flex;
+            font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            justify-content: center;
+            line-height: 20px;
+            max-width: 480px;
+            min-height: 40px;
+            min-width: 0px;
+            overflow: hidden;
+            padding: 0px;
+            padding-left: 20px;
+            padding-right: 20px;
+            text-align: center;
+            touch-action: manipulation;
+            transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+            user-select: none;
+            -webkit-user-select: none;
+            vertical-align: middle;
+            margin-left: 50px;
+        }
+
+        .item3 button:hover,
+        .item3 button:focus,.item2 button:hover,
+        .item2 button:focus,.item1 button:hover,
+        .item1 button:focus { 
+            background-color: #16437E;
+            color: #ffffff;
+        }
+
+        .item3 button:active,.item2 button:active
+        .item1 button:active {
+        background: #09223b;
+        color: rgb(255, 255, 255, .7);
+            }
+
+            .item3 button:disabled,.item2 button:disabled ,
+            .item1 button:disabled  { 
+            cursor: not-allowed;
+            background: rgba(0, 0, 0, .08);
+            color: rgba(0, 0, 0, .3);
+            }
+       
+        
+
+
+
+   
+
+ 
+
+        
+    </style>
+</head>
+
+<body>
+<div id="Grid-white">
+    <div id="Testimonial-grid-container">
+        
+        
+        
+            
+        <div id="Testimonial_1" class="grid-item">
+            
+            
+            <img src="images/orange.png" alt="orange">
+            <div id="title">
+            <h1>SEDANS</h1>
+            <h6>Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next trip </h6>
+            </div>
+            <div class="item1"><button type="submit" id="b_orange">Learn More</button></div> 
+               
+        
+        </div>
+
+        <div id="Testimonial_5" class="grid-item">
+            <img src="images/light.png" alt="light">
+            <div id="title">
+            <h1>SUVS</h1>
+            <h6>Take an SUV for its spacious interior, power, and versality. Perfect for your next family and off-road adventures.</h6>
+            </div>
+            <div class="item2"><button type="submit" id="b_ligh">Learn More</button></div>       
+            </div>
+        <div id="Testimonial_3" class="grid-item">
+            <img src="images/dark.png" alt="dark">
+            <div id="title">
+            <h1>LUXURY</h1>
+            <h6>Cruise in the best car brands without the bloated prices.Enjoy the ehanced comfort of a luxury rental and arrive in style.</h6>
+            </div>
+            <div class="item3"><button type="submit" id="b_dark">Learn More</button></div>
+                     
+                        
+                          
+        </div>
+        
+        
+                
+            
+    </div>
+
+</div>
+</body>
+</html>
